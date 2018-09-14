@@ -3,6 +3,7 @@ void main()
 {
   char c;
   printf("\n Enter a character : ");
+  scanf("%c", &c);
   if(c<a&&c>Z)
     {
       printf("\nInvalid");
